@@ -9,11 +9,13 @@ h1, h2{
 }
 
 h1{
-font-size:40px;
+  margin-top:0;
+  font-size:40px;
+  margin-bottom:15px;
 }
 
 h2{
-font-size:30px;
+  font-size:30px;
 }
 
 .established{
@@ -26,8 +28,15 @@ hr{
 }
 
 body {
+    padding:20px;
     background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
     font-family:sans-serif;
+}
+img{
+  display:block;
+  margin-top:-25px;
+  margin-left:auto;
+  margin-right:auto;
 }
 
 .menu {
@@ -49,5 +58,32 @@ body {
 }
 
 .item p{
+  font-size:18px;
+  margin-top:5px;
+  margin-bottom:5px;
   display:inline-block;
+}
+.bottom-line{
+  margin-top:25px;
+}
+
+/*FOOTER*/
+
+footer{
+  font-size:14px;
+}
+a{
+  color:black;
+}
+a:visited{
+  color:black;
+}
+a:hover{
+  color:brown;
+}
+a:active{
+  color:brown;
+}
+.address{
+  margin-bottom:5px;
 }
