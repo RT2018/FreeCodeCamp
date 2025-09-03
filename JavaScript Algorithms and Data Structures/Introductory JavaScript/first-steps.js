@@ -1,4 +1,4 @@
-let character = 'Hello';
-console.log(character);
-character = "World";
-console.log(character);
+let profession = "teacher";
+let age;
+console.log(profession);
+console.log(age);
