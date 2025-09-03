@@ -1,4 +1,5 @@
-let cities = ["London", "New York", "Mumbai"];
-console.log(cities);
-cities[cities.length-1] = "Mexico City";
-console.log(cities);
+let rows = ["Naomi", "Quincy", "CamperChan"];
+rows.push("freeCodeCamp");
+let popped = rows.pop();
+console.log(rows);
+console.log(popped);
